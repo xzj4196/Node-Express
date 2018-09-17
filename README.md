@@ -1,7 +1,8 @@
-# Node-Express
+# Node-Express+MySQL
 自己没事测试着玩
 
-
+  前提你得有自己的MySQL
+  
   全局安装 node  express  
   
   npm install -g express  
@@ -21,6 +22,8 @@
    
    运行项目 
    npm start 
+   
+   运行项目默认的页面是ejs格式的需要修改html的可以自己修改配置
    
   ##################################
   
