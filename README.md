@@ -2,23 +2,25 @@
 自己没事测试着玩
 
 
- #
-  全局安装 node  express  #
-  npm install -g express  #
-  npm install -g express-generator  #
-  使用 express -v查看版本号判断是否成功  #
+  全局安装 node  express  
+  
+  npm install -g express  
+  
+  npm install -g express-generator  
+  
+  使用 express -v查看版本号判断是否成功  
 
-#
-   生成项目基本框架  #
-   express projectName  #  
-   默认是jade，如果想要使用ejs，使用 express -e projectName命令   #
+
+   生成项目基本框架  
+   express projectName   
+   默认是jade，如果想要使用ejs，使用 express -e projectName命令  
    
    
-   初始化下载需要的模块   # 
-   cd projectName    -->  npm install    #
+   初始化下载需要的模块  
+   cd projectName    -->  npm install   
    
-   运行项目  #
-   npm start  #
+   运行项目 
+   npm start 
    
   ##################################
   
