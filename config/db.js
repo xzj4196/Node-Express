@@ -1,32 +1,13 @@
-//var mysql  = require('mysql');  
-// 
-//var connection = mysql.createPool({     
-//host     : 'localhost',       
-//user     : 'root',              
-//password : 'xzj970605',                        
-//database: 'firstmysql', 
-//}); 
-// 
-//function query(sql,callback){
-//  pool.getConnection(function(err,connection){
-//      connection.query(sql, function (err,rows) {
-//          callback(err,rows);
-//          connection.release();
-//      });
-//  });
-//}
-//
-//exports.query = query;
 
 //导入所需模块  
 var mysql=require("mysql");    
 //导入配置文件  
 //var cfg  =require("./config/db");  
 var pool = mysql.createPool({    
-      	host     : 'localhost',       
-		user     : 'root',              
-		password : 'xzj970605',                        
-		database: 'firstmysql',    
+      	host     : '',       // Ip
+		user     : '',       // 用户名         
+		password : '',         //密码               
+		database: '',    //数据库
 //      port:    '3306'
 });    
 //导出查询相关  
